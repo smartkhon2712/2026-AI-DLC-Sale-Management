@@ -111,3 +111,29 @@
 **Context**: Finalizing Units Generation stage.
 
 ---
+
+## Units Generation - Approval
+**Timestamp**: 2026-03-25T10:59:30+07:00
+**AI Prompt**: "Ready to proceed to CONSTRUCTION PHASE?"
+**User Response**: "@[...copilot-instructions.md] tôi approve, chuyển sang giai đoạn tiếp theo"
+**Status**: Approved
+**Context**: Units Generation completed. Transitioning to Code Planning.
+
+---
+
+## Code Planning - Approval Request
+**Timestamp**: 2026-03-25T10:59:30+07:00
+**User Input**: "[No new user input]"
+**AI Response**: "Created backend-code-generation-plan.md and frontend-code-generation-plan.md in construction/plans/ directory. Summarized sequence steps and required test inclusions. Requested explicit approval to execute code generation."
+**Context**: Awaiting explicit approval to execute Code Generation.
+
+---
+
+## Code Generation - Approval
+**Timestamp**: 2026-03-25T11:02:36+07:00
+**AI Prompt**: "Are you ready... to start Code Generation?"
+**User Response**: "tôi đồng ý"
+**Status**: Approved
+**Context**: Code Planning stage finished. Transitions to Code Generation.
+
+---

@@ -31,7 +31,7 @@
 - [ ] NFR Requirements - SKIP
 - [ ] NFR Design - SKIP
 - [ ] Infrastructure Design - SKIP
-- [ ] Code Planning - EXECUTE
+- [x] Code Planning - EXECUTE
 - [ ] Code Generation - EXECUTE
 - [ ] Build and Test - EXECUTE
 
