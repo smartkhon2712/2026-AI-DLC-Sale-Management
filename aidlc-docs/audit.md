@@ -78,3 +78,36 @@
 **Context**: Finalizing Application Design stage.
 
 ---
+
+## Application Design - Approval
+**Timestamp**: 2026-03-25T10:48:52+07:00
+**AI Prompt**: "Ready to proceed to Units Generation?"
+**User Response**: "@[...copilot-instructions.md] chuyển sang giai đoạn: Units Generation"
+**Status**: Approved
+**Context**: Application Design stage finished. Transitions to Units Planning.
+
+---
+
+## Units Generation - Plan Approval Request
+**Timestamp**: 2026-03-25T10:48:52+07:00
+**User Input**: "[No new user input]"
+**AI Response**: "Created unit-of-work-plan.md with clarification questions regarding Decomposition and Folder Names. Awaiting user response."
+**Context**: Planning Units Generation.
+
+---
+
+## Units Generation - Plan Approval Request (Update)
+**Timestamp**: 2026-03-25T10:51:43+07:00
+**User Input**: "tôi đã trả lời"
+**AI Response**: "Analyzed user options: Selected Monorepo Strategy with 2 large Units (frontend/ & backend/). Checked for ambiguity (none). Asked: 'Unit of work plan complete... Ready to proceed to generation?'"
+**Context**: Awaiting explicit approval for UOW Plan execution.
+
+---
+
+## Units Generation - Approval and Execution
+**Timestamp**: 2026-03-25T10:55:16+07:00
+**User Input**: "đồng ý"
+**AI Response**: "Generated unit-of-work.md, unit-of-work-dependency.md, and unit-of-work-story-map.md. Updated plan checklist and project state tracking. Required explicit approval for the generated artifacts."
+**Context**: Finalizing Units Generation stage.
+
+---
