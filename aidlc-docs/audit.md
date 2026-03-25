@@ -21,3 +21,27 @@
 **Context**: Finalizing Requirements Analysis stage
 
 ---
+
+## User Stories - Assessment and Planning
+**Timestamp**: 2026-03-25T10:27:11+07:00
+**User Input**: "@[.../copilot-instructions.md] tôi approve, hãy chuyển sang Giai đoạn User Stories"
+**AI Response**: "Evaluated User Stories necessity (High Priority) and created user-stories-assessment.md. Designed story-generation-plan.md with clarification questions for Breakdown Approach and Acceptance Criteria. Awaiting user response."
+**Context**: Planning User Stories generation.
+
+---
+
+## User Stories - Plan Approval Request
+**Timestamp**: 2026-03-25T10:30:02+07:00
+**User Input**: "tôi đã trả lời"
+**AI Response**: "Tôi đã phân tích lựa chọn của bạn: 1. Feature-Based Breakdown; 2. BDD Acceptance Criteria. Cả hai định dạng đều rất rõ ràng và tránh được sự mơ hồ. Bạn có phê duyệt để bắt đầu quy trình sinh User Stories (Persona và Stories) theo kế hoạch này không?"
+**Context**: Requesting explicit approval for User Stories Generation Plan.
+
+---
+
+## User Stories - Document Generation
+**Timestamp**: 2026-03-25T10:32:40+07:00
+**User Input**: "đồng ý sinh file"
+**AI Response**: "Generated personas.md and stories.md based on Feature-Based breakdown and BDD criteria. Requested explicit approval from user."
+**Context**: Finalizing User Stories stage.
+
+---

@@ -25,3 +25,4 @@
 - [x] Workspace Detection
 - [ ] Reverse Engineering (if applicable)
 - [x] Requirements Analysis
+- [x] User Stories
