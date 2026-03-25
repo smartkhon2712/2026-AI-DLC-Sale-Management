@@ -23,7 +23,7 @@
 - [x] Requirements Analysis
 - [x] User Stories 
 - [x] Workflow Planning
-- [ ] Application Design - EXECUTE
+- [x] Application Design - EXECUTE
 - [ ] Units Generation - EXECUTE
 
 ### 🟢 CONSTRUCTION PHASE
