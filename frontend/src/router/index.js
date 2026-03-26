@@ -11,7 +11,8 @@ const routes = [
     children: [
       { path: '', name: 'Dashboard', component: () => import('../views/DashboardView.vue'), meta: { requiresAdmin: true } },
       { path: 'products', name: 'Products', component: () => import('../views/ProductView.vue') },
-      { path: 'pos', name: 'POS', component: () => import('../views/OrderPOSView.vue') }
+      { path: 'pos', name: 'POS', component: () => import('../views/OrderPOSView.vue') },
+      { path: 'history', name: 'History', component: () => import('../views/OrderHistoryView.vue') }
     ]
   }
 ]
