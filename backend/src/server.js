@@ -17,10 +17,20 @@ app.use(errorHandler);
 
 const PORT = process.env.PORT || 3000;
 
+const checkAndSeed = require('./utils/seed');
+
 if (process.env.NODE_ENV !== 'test') {
-  app.listen(PORT, () => {
-    console.log(`[Backend Server] Sale Management REST API running on port ${PORT}`);
-  });
+  // Run seed check before starting server
+  checkAndSeed()
+    .then(() => {
+      app.listen(PORT, () => {
+        console.log(`[Backend Server] Sale Management REST API running on port ${PORT}`);
+      });
+    })
+    .catch((error) => {
+      console.error('[Error] Server failed to start due to seed errors:', error);
+      process.exit(1);
+    });
 }
 
 module.exports = app;

@@ -49,6 +49,7 @@ model Product {
   price       Float
   cost        Float       // Admin Only
   stock       Int         @default(0)
+  imageUrl    String?     // Added for placeholder images
   categoryId  Int
   category    Category    @relation(fields: [categoryId], references: [id])
   orderItems  OrderItem[]

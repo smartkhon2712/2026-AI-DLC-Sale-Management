@@ -45,5 +45,16 @@ yarn install
 yarn dev
 ```
 
+### 4. Thông tin tài khoản đăng nhập (Seed Data)
+Hệ thống tự động tạo dữ liệu mẫu (seed data) khi khởi động backend lần đầu tiên. Dưới đây là danh sách tài khoản bạn có thể dùng để kiểm tra hệ thống:
+
+- **Tài khoản Admin (Quản trị viên):**
+  - Tên đăng nhập: `admin`
+  - Mật khẩu: `admin123`
+
+- **Tài khoản Staff (Nhân viên):**
+  - Tên đăng nhập: `staff1`
+  - Mật khẩu: `staff123`
+
 ## 📜 Thông tin thêm
 Vui lòng tham khảo các thư mục `steering` và `aidlc-docs` để đọc chuyên sâu về kiến trúc hệ thống, quy trình nghiệp vụ và đặc tả API.
